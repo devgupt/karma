@@ -1,0 +1,39 @@
+.top-navigation{
+	background-color: #fff;
+}
+.top-navigation > .content{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+html {
+  box-sizing: border-box;
+}
+div {
+	border 1px solid chocolate;
+	transition: all 0.5s ease;
+}
+.links > li{
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-navigation > .links {
+	float:right;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+}
+.content{
+	-webkit-font-smoothing: antialiased;
+	padding: 0px 15px;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+.links > li:hover{
+	color: green;
+	cursor: pointer;
+
+}
